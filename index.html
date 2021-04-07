@@ -5,20 +5,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="Description" content="Enter your description here" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
 
-  <title>Bootstrap Layouts</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <title>The Weather App</title>
 </head>
 
 <body>
+    <header class="container-fluid text-center text-white bg-primary">
+        <h1>Weather Dashboard</h1>
+    </header>
 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 bg-light">
+                <h5 class="mt-4">Search a City</h5>
+                <div>
+                    <input class="form-control" type="text" id="user-search">
+                    <button class="btn btn-primary" id="search-btn" onclick="searchVal(event)"><i class="fa fa-search-plus"></i> SEARCH</button>
+                </div>
+                <ul class="search-history" id="history"></ul>
+                
+            </div>
+            <div class="current-time">
+                <h3><span id="current-time"></span></h3>
+            </div>
+            <div class="col-lg-9">
+                <div class="mainWeather col display-flex hidden">
+                    <h2 id="userCity"></h2>
+                    <p>Temp: <span class="temp"> Degrees</span></p>
+                    <p>Wind: <span class="wind"> mPh</span></p>
+                    <p>Humidity: <span class="humid"> %</span></p>
+                    <p>UV Index: <span class="uv"></span></p>
+                </div>
+               
+            </div>
 
+            <div class="list-city" id="current-day">
+                
 
-
+            </div>
+        </div>
+    </div>
 
 
 
 
     
+
+
+
+
+
+
+
 </body>
+<script src="./assets/js/api.js"></script>
+<script src="./assets/js/script.js"></script>
+
+</html>

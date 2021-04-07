@@ -1,0 +1,13 @@
+.bg-primary {
+    height: 100px;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    justify-content: center;
+}
+/* .btn {
+    
+} */
+.hidden {
+    display: none;
+}
