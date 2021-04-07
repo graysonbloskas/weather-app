@@ -8,3 +8,10 @@ Once the user inputs a city, their search is saved on local storage. The storage
 ## NOT COMPLETE
 This website is not complete. I need to come back and update the application so that forecast is displayed, the moment() time is displayed, and to clean up the UI/css. 
 
+Link to Live Site:
+https://graysonbloskas.github.io/weather-app/
+
+
+
+![screencapture-file-Users-graysonbloskas-Desktop-UCF-homework-weather-app-index-html-2021-04-06-23_30_55](https://user-images.githubusercontent.com/79467387/113806378-2a5e9c80-9730-11eb-9ab5-3055299b1454.png)
+

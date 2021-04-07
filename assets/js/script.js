@@ -1,8 +1,8 @@
 // function that prints city buttons to page on page load
 window.onload = function() {
     setSearchCity();
-    var today = moment();
-    $("#current-time").text(today.format("MMM Do, YYYY"));
+    // var today = moment();
+    // $("#current-time").text(today.format("MMM Do, YYYY"));
 }
 // global variables
 
